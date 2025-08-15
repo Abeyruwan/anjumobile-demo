@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import {FaShoppingCart,FaUser} from 'react-icons/fa';
+import logo from '../assets/logo.png'; // Assuming you have a logo image
 
 const Header = () => {
   return (
@@ -8,7 +9,17 @@ const Header = () => {
         <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
             
             <Container>
-                <Navbar.Brand href="/">Anju Mobile</Navbar.Brand>
+                <Navbar.Brand href="/">
+                    <img
+                        src={logo}
+                        width="80"
+                        height="60"
+                        padding="5"
+                        className="d-inline-block align-top"
+                        alt="Anju Mobile Logo" /> 
+                    Anju Mobile
+                </Navbar.Brand>
+                
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
