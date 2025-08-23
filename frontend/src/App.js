@@ -1,22 +1,24 @@
-import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Outlet,useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import HomeScreen from './screens/HomeScreen';
+
+
 
 const App = () => {
+  const location = useLocation();
   return (
     <>
-    <Header />
-    <main className="py-3">
-      <Container>
-        <HomeScreen />
-      </Container>
-    </main>
-    <Footer />
+      <Header />
+        <main className='py-3'>
+          <Container>
+            <Outlet key={location.pathname} />
+          </Container>
+        </main>
+      <Footer />
     </>
     
-  )
-}
+  );
+};
 
 export default App;
