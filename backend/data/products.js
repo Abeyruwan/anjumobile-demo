@@ -1,6 +1,5 @@
 const products = [
  {
-        _id: '1',
         name: 'iPhone12_mini',
         image: '/images/iPhone12_mini.jpg',
         description: 'Experience the best of Google with the Pixel 7 Pro.',
@@ -13,7 +12,6 @@ const products = [
   }, 
 
 {
-    _id: '2',
     name: 'iPhone12 mini Pinck',
     image: '/images/iPhone12_mini_Pinck.jpg',
     description: 'Samsung\'s flagship phone with a stunning camera and display.',
@@ -26,7 +24,7 @@ const products = [
   },
   
   {
-        _id: '3',
+        
         name: 'iPhone13',
         image: '/images/iPhone13.jpg',
         description: 'Fast and smooth performance with the OnePlus 11.',
@@ -39,7 +37,7 @@ const products = [
   },
     
   {
-        _id: '4',
+       
         name: 'iPhone14',
         image: '/images/iPhone14.jpg',
         description: 'A multimedia powerhouse with a stunning 4K display.',
@@ -52,7 +50,7 @@ const products = [
   },
     
     {
-        _id: '5',
+        
         name: 'iPhone14_Pro',
         image: '/images/iPhone14_Pro.jpg',
         description: 'Flagship performance with a competitive price.',
@@ -64,7 +62,7 @@ const products = [
         numReviews: 450,
     },
     { 
-    _id: '6',
+    
     name: 'iPhone 14 Pro Max',
     image: '/images/iPhone_14_Pro_Max.jpg',
     description: 'The latest iPhone with A16 Bionic chip and ProMotion display.',
