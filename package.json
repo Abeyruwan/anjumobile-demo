@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Abeyruwan/anjumobile-demo#readme",
   "dependencies": {
     "bcryptjs": "^3.0.2",
+    "colors": "^1.4.0",
     "express": "^5.1.0",
     "mongodb": "^6.18.0",
     "mongoose": "^8.18.0"
