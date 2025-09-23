@@ -6,7 +6,7 @@ const products = [
         brand: 'Google',
         category: 'Smartphones',
         price: 899.99,
-        countInStock: 40,
+        countInStock: 5,
         rating: 4.6,
         numReviews: 600,
   }, 
@@ -25,15 +25,15 @@ const products = [
   
   {
         
-        name: 'iPhone13',
-        image: '/images/iPhone13.jpg',
-        description: 'Fast and smooth performance with the OnePlus 11.',
-        brand: 'OnePlus',
-        category: 'Smartphones',
-        price: 749.99,
-        countInStock: 20,
-        rating: 4.5,
-        numReviews: 500,
+      name: 'iPhone13',
+      image: '/images/iPhone13.jpg',
+      description: 'Fast and smooth performance with the OnePlus 11.',
+      brand: 'OnePlus',
+      category: 'Smartphones',
+      price: 749.99,
+      countInStock: 5,
+      rating: 4.5,
+      numReviews: 500,
   },
     
   {
@@ -57,7 +57,7 @@ const products = [
         brand: 'Xiaomi',
         category: 'Smartphones',
         price: 899.99,
-        countInStock: 25,
+        countInStock: 2,
         rating: 4.4,
         numReviews: 450,
     },
