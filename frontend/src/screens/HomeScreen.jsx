@@ -9,7 +9,7 @@ const HomeScreen = () => {
 
   return (
     <>
-      <Message variant='info'><h3>Welcome to Anju  Mobile</h3></Message>
+      <Message variant='info'>Welcome to Anju Mobile</Message>
       {isLoading ? (
         <Loader />
       ) : error ? ( <Message variant='danger'>{error?.data?.message || error.error}</Message>) : (

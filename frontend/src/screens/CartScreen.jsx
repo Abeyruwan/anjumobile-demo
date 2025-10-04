@@ -6,6 +6,7 @@ import Message from "../components/Message";
 import { addToCart, removeFromCart } from "../slices/cartSlice";
 
 
+
 export const CartScreen = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
@@ -78,7 +79,7 @@ export const CartScreen = () => {
                         <h2>
                             Subtotal ({cartItems.reduce((acc, item) => acc + item.qty, 0)}) items
                         </h2>
-                            ${cartItems.reduce((acc, item) => acc + item.qty * item.price, 0).toFixed(2)}
+                            ${cartItems.reduce((acc, item) => acc + item.qty * item.price + Number(cart.taxPrice), 0).toFixed(2)}
                     </ListGroup.Item>
                     <ListGroup.Item>
                         <Button 
